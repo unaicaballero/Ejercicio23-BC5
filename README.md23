@@ -1,0 +1,3 @@
+Ejercicio 23 - BC5
+Crear una aplicación que se conecte a una base de datos y muestre los datos de una tabla en un TableView.
+Al ejecutar la aplicación se abre una ventana de 450x350 píxeles con el título "Ejercicio 23 - TableView con JDBC". Contiene un TableView con tres columnas (ID, Nombre y Salario) y un botón "Cargar datos". Al pulsarlo se establece una conexión con una base de datos Oracle local mediante JDBC, se consulta la tabla EJEMPLOCONEXION y se puebla el TableView con los resultados usando la clase modelo Empleado. Cada vez que se pulsa el botón, la tabla se limpia y se recarga. El layout está construido con un VBox con 10 píxeles de espaciado y 20 de padding.
